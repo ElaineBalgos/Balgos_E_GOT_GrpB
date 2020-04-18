@@ -33,7 +33,7 @@ main {
 	height:360px;
 	background-color:grey;
 	margin:0 auto;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 
 #houseImages { position:relative; width:4000px; transition: all .5s; }
@@ -97,11 +97,66 @@ main {
 }
 
 /* add styles here for lightbox and video */
+.lightbox {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  display: none;
 
 
+  /* eventually we'll hide it by default
+  */
+}
+
+.show-lightbox {
+  display: block;
+}
+
+.close-button {
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  float: right;
+  padding-right: 35px;
+  padding-top: 20px;
+  cursor: pointer;
+}
 
 video {
 	width: 80%;
-	margin-top: 10%;
+	margin-top: 5%;
+  margin-left: 20%;
 	border: thin solid #949393;
+}
+
+.house-info {
+  font-size: 1.5em;
+  color: white;
+  line-height: 1.5;
+  width: 75%;
+  margin: 1.5em auto 0;
+}
+
+div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.vidControls {
+  display: block;
+  margin-top: 8px;
+}
+
+.playButt, .pauseButt, .rewindButt {
+  font-family: 'GOT_font';
+  font-size: 18px;
+  padding: 0.25em;
+  cursor: pointer;
+  color: white;
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: thin solid #949393;
 }
