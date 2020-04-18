@@ -1,6 +1,6 @@
 # GOT_video
 
-![GOTLogo!](/images/GOTLogo.jpg "GOTLogo")
+![GOTLogo!](/images/GOTLogo.png "GOTLogo")
 
 ### Description
 To add the basic controls to video such as Play, Pause and Rewind Button in each video.
